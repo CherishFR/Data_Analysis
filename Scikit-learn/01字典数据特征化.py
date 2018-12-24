@@ -16,6 +16,10 @@ def dictvec():
         ])
     # 展示特征类别
     print(dict.get_feature_names())
+
+    # 将One-hot编码转化成字典形式
+    print(dict.inverse_transform(data))
+
     # 将字典数据转化成One-hot编码，数字数据不需要转化
     print(data)
 
